@@ -1,0 +1,32 @@
+.card-content{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.card-content p {
+    margin: 0;
+}
+.card-content select {
+    padding: 0 5% 0 5%;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+
+optgroup {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card-content {
+        font-size: 16px;
+    }
+    .card-content select {
+        padding: 0 5% 0 5%;
+    }
+
+  }

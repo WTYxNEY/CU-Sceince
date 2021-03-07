@@ -1,0 +1,5 @@
+.alet-position {
+    position: fixed;
+    top: 7px;
+    z-index: 2;
+}

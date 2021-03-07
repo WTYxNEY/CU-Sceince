@@ -1,0 +1,50 @@
+ td {
+    font-size: 18px;
+}
+.detail-and-delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.detail-and-delete p{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+  
+}
+
+.folder-icon button {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    font-size: 24px;
+}
+.trash-icon button{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    font-size: 20px;
+    color: #F0462B;
+}
+
+.status-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+    margin-left: 8px;
+    font-size: 24px;
+    color: #27C381;
+}
+
+.status-close {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+    margin-left: 8px;
+    font-size: 24px;
+    color: #F0462B;
+}

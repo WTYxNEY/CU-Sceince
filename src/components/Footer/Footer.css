@@ -1,0 +1,26 @@
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+  }
+  .add-icon button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E83E8C;
+    font-size: 100px;
+    margin-left: 44px;
+    background-color: white;
+  }
+
+  .csv-button {
+    position: fixed;
+    right: 0;
+  }
+  .csv-button p{
+    margin: 0;
+  }
+  
